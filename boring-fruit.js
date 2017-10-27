@@ -57,58 +57,26 @@ $(function() {
 });
 
 var mystery_outings = [
-	"Tyntesfield",
-	"Goblin Coombe",
-	"Sand Bay",
-	"Cheddar lake",
-	"Bristol museum",
-	"Weston museum",
-	"Bishops palace, Wells",
-	"Arnos Vale cemetery",
-	"Helicopter museum",
-	"Hestercombe gardens",
-	"Nailsea swimming pool",
-	"Kewstoke woods",
-	"Clevedon SaltHouse fields",
-	"Walk on Clevedon pier",
-	"Walk on Portishead Prom",
-	"M Shed museum",
-	"SS Great Britain",
-
+	"Natural History Museum",
+	"The Ashmolean",
+	"The Story Museum",
+	"Botley Park",
+	"Waitrose",
+	"Toys R Us",
+	"Pets at Home",
+	"The History of Science Museum",
+	"Oatlands Road Recreation Ground",
 ];
-
-// Ideas to google
-// - Nearby beaches
-// - Nearby woodland
-// - Waterpark or adventure swimming pool
-// - Soft play, trampoling or indoor jungle gym
-// - Museums and libraries
-// - Stately homes and gardens
-// - Playparks in Bristol area
-
 
 //Need 48 examples of each indoor/outdoor
 var outdoor_activities = [
-	"Watering the garden",
-	"Painting",
-	"Hula hoops",
-	"Mud kitchen",
-	"Sand pit",
-	"Balance bike",
-	"Take frisbee to park",
-	"Take scooter to park",
+	"Run and touch",
+	"Look for minibeasts",
+	"Push bike",
 	"Bubbles",
 	"Football",
-	"Croquet",
-	"Kick leaves in the park",
-	"Giant floor chalk",
-	"Build a tee pee",
-	"Build a wooden den",
-	"Pond dipping",
-	"Lawn mower",
-	"Roller ball painting",
-	"Homemade sprinkler",
-	"Pouring station",
+	"Chalk",
+	"Water table",
 ];
 
 // TODO
@@ -116,39 +84,27 @@ var outdoor_activities = [
 // - Write up all new toy acquisitions
 
 var indoor_activities = [
-	"Watering the garden",
 	"Play doh",
-	"Wooden toys",
-	"Plastic toys",
-	"Toy garage",
-	"Wheelie bug",
-	"Ball pit",
-	"Toddler bags",
+	"Dress up",
 	"Random toys",
+	"LEGO",
+	"K'NEX",
+	"Bristle Blocks",
 	"Duplo",
-	"Homemade toys",
-	"Brio",
+	"Trains",
 	"Playmobil",
-	"Noah's ark",
-	"Pencils and crayons",
-	"Chalkboard paint",
-	"Soft toy tub",
-	"Space station",
 	"Read a book",
+	"Drawing",
+	"Stickers",
+	"Painting",
+	"Stamps",
+	"Glueing",
+	"Activity books",
 	"Listen to music",
-	"Do a dance",
-	"Alphabet cards",
-	"Make a fort",
-	"Build a tower",
-	"Play with the cats",
-	"Threading set",
-	"Busy board",
-	"Light up toys",
-	"Balloons",
-	"Alphabet fishing",
-	"Skittles",
-	"Music makers",
-	"Build a tower",
+	"Wooden puzzles",
+	"Jigsaw puzzles",
+	"Wooden blocks",
+	"Board games",
 ];
 
 // Ideas to google
@@ -157,20 +113,13 @@ var indoor_activities = [
 // - Homemade toy ideas from list
 
 var making_games = [
-	"Ball run",
-	"water run",
-	"Ball sorting coloured tubes",
-	"Build a tower of recycling",
+	"Recycling bin",
 	"Baking",
-	"Rice bin sensory ideas",
+	"Rice bin",
 	"Coloured rice",
-	"Making coloured popsicle and velcro",
-	"Art box ideas",
-	"Kitchen plastic",
-	"Hand and feet painting",
-	"Sponge painting",
-	"Bicarb and vinegar painting",
-	"Bubble painting",
+	"Make shakers",
+	"Bicarbonate and vinegar",
+	"Make game out of LEGO",
 ];
 
 // TODO use cloned mutable lists and when list runs out re-clone original. Need to pass reference to original
